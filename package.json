@@ -1,0 +1,19 @@
+{
+  "name": "node_angular_example",
+  "version": "1.0.0",
+  "description": "Restfull Web Service Example",
+  "main": "server.js",
+  "dependencies": {
+    "body-parser": "^1.15.0",
+    "consolidate": "^0.14.1",
+    "express": "^4.14.0",
+    "swig": "^1.4.2"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "author": "Turkgen",
+  "license": "ISC"
+}

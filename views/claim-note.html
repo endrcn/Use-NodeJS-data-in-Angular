@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Getting Variable from NodeJS to AngularJS</title>
+	<script type="text/javascript" src="/angular.min.js"></script>
+	<script type="text/javascript" src="/noteController.js"></script>
+</head>
+<body ng-app="app" ng-controller="NoteController" ng-init="setNoteId({{noteId}})">
+
+<!--
+# Get variable from AngularJS
+-->
+<button ng-click="getNoteId()">Show NoteId</button>
+</body>
+</html>
